@@ -1,0 +1,93 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f2f2f2;
+}
+.sombrero {
+  width: 150px;
+  height: 100px;
+  background-color: black;
+  position: absolute;
+  top: 50px;
+  left: 599px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+.sombrero1 {
+  background-color: #000;
+  position: absolute;
+  top: 119px;
+  left: 575px;
+  width: 200px;
+  height: 50px;
+}
+.cara {
+  width: 400px;
+  height: 400px;
+  background-color: #734427;
+  border-radius: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.eye {
+  width: 80px;
+  height: 80px;
+  background-color: #000;
+  border-radius: 50%;
+  top: 250px;
+}
+
+.left-eye {
+  transform: translateX(89px);
+  margin-top: 80px;
+}
+
+.right-eye {
+  transform: translateX(-89px);
+  margin-top: 80px;
+}
+.pupila1 {
+  width: 30px;
+  height: 30px;
+  background-color: #c42727;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.pupila {
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.nariz {
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  border-radius: 20%;
+  position: absolute;
+  top: 110px;
+  left: 50%;
+  margin-top: 180px;
+  transform: translateX(-25px);
+}
+.hat {
+  width: 200px;
+  height: 80px;
+  background-color: black;
+  position: absolute;
+  top: 360px;
+  left: 580px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
